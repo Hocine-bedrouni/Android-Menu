@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!--    <ImageButton-->
+    <!--        android:id="@+id/de"-->
+    <!--        android:layout_width="311dp"-->
+    <!--        android:layout_height="131dp"-->
+    <!--        android:layout_marginBottom="8dp"-->
+    <!--        app:layout_constraintBottom_toTopOf="@+id/scro"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:srcCompat="@drawable/btn1"-->
+    <!--        tools:ignore="SpeakableTextPresentCheck" />-->
+
+    <!--    <ImageButton-->
+    <!--        android:id="@+id/scro"-->
+    <!--        android:layout_width="311dp"-->
+    <!--        android:layout_height="131dp"-->
+    <!--        android:layout_marginBottom="20dp"-->
+    <!--        app:layout_constraintBottom_toTopOf="@+id/imageButton2"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:srcCompat="@drawable/btn1" />-->
+
+    <!--    <ImageButton-->
+    <!--        android:id="@+id/imageButton2"-->
+    <!--        android:layout_width="311dp"-->
+    <!--        android:layout_height="131dp"-->
+    <!--        android:layout_marginTop="429dp"-->
+    <!--        android:layout_marginBottom="12dp"-->
+    <!--        app:layout_constraintBottom_toTopOf="@+id/imageButton"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"-->
+    <!--        app:srcCompat="@drawable/btn1" />-->
+
+    <ImageButton
+        android:id="@+id/Love_machine"
+        android:layout_width="299dp"
+        android:layout_height="129dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="420dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/btn1" />
+
+    <ImageButton
+        android:id="@+id/splash"
+        android:layout_width="299dp"
+        android:layout_height="129dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="272dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/btn1" />
+
+
+
+    <ImageButton
+        android:id="@+id/de"
+        android:layout_width="299dp"
+        android:layout_height="129dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="136dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/btn1" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="299dp"
+        android:layout_height="129dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="572dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/btn1" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jeu de Dé"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/de"
+        app:layout_constraintEnd_toEndOf="@+id/de"
+        app:layout_constraintStart_toStartOf="@+id/de"
+        app:layout_constraintTop_toTopOf="@+id/de" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="175dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="44dp"
+        android:text="Splash Screen"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.344"
+        app:layout_constraintStart_toStartOf="@+id/splash"
+        app:layout_constraintTop_toTopOf="@+id/splash" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="161dp"
+        android:layout_height="35dp"
+        android:text="Love Machine"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/Love_machine"
+        app:layout_constraintEnd_toEndOf="@+id/Love_machine"
+        app:layout_constraintHorizontal_bias="0.608"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/Love_machine"
+        app:layout_constraintVertical_bias="0.436" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
